@@ -1,0 +1,8 @@
+# name: alert-dismiss
+# key: alert-dismiss
+# group: twitter-bootstrap
+# --
+<div class="alert alert-${1:$$(yas-choose-value '("success" "info" "warning" "danger"))} alert-dismissable">
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  $0
+</div>
