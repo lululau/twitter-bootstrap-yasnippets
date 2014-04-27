@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: button
 # key: button
+# group: twitter-bootstrap
 # binding: direct-keybinding
 # --
-<button class="btn $1" $2>$3</button>
+<button type="button" class="btn btn-${1:$$(yas-choose-value '("default" "primary" "success" "info" "warning" "danger" "link"))}" $2>$3</button>$0
