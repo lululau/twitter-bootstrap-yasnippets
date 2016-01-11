@@ -1,9 +1,9 @@
 # -*- mode: snippet -*-
-# name: alert
+# name: twitter-bootstrap-alert
 # key: alert
 # group: twitter-bootstrap
 # --
-<div class="alert alert-${1:$$(yas-choose-value '("success" "info" "warning" "danger"))}">${2:
-<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>}
+<div class="alert alert-${1:$$(yas-choose-value '("success" "info" "warning" "danger"))} alsert-dismissable">${2:
+<button type="button" class="close">&times;</button>}
   $0
 </div>
